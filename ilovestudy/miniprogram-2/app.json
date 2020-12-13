@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/page4/page4",
+    "pages/page5/page5",
+    "pages/posts/post",
+    "pages/posts/post-detail/post-detail",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle":"white",
+    "list": [{
+      "selectedIconPath": "images/a1.png",
+      "iconPath": "images/a.png",
+      "pagePath": "pages/index/index",
+      "text": "不玩手机"
+    }, {
+      "selectedIconPath": "images/b1.png",
+      "iconPath": "images/b.png",
+      "pagePath": "pages/page2/page2",
+      "text": "日程"
+    }, {
+      "selectedIconPath": "images/c1.png",
+      "iconPath": "images/c.png",
+      "pagePath": "pages/posts/post",
+      "text": "阅读"
+    },{
+      "selectedIconPath": "images/d1.png",
+      "iconPath": "images/d.png",
+      "pagePath": "pages/page4/page4",
+      "text": "个人中心"
+    }
+  ]
+  },
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#cfe2f3",
+    "navigationBarTitleText": "我爱学习",
+    "navigationBarTextStyle":"black",
+    "font-size":"80px"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

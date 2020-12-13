@@ -1,0 +1,21 @@
+/* pages/page4/page4.wxss */
+.info-box{
+  width: 80%;
+}
+.avatar-img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid gray;
+}
+.info-box>text{
+  display: block;
+  margin-left: 20%;
+  margin-top: 4%;
+}
+.but1{
+  width: 45%;
+  height: 1cm;
+  background-color: rgb(191, 236, 225);
+}
+
+

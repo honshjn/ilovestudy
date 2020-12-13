@@ -1,0 +1,6 @@
+<!--index.wxml-->
+
+<button style="width:100%" class="bt_connect" bindtap="connect">
+  <navigator url="/pages/page5/page5" hover-class="navigator-hover"><image src="/images/e.png"></image></navigator></button>
+  <button style="width:100%" class="bt_connect" bindtap="connect">
+  <navigator url="/pages/page3/page3" hover-class="navigator-hover"><image src="/images/e2.png"></image></navigator></button>

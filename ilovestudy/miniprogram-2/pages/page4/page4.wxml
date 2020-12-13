@@ -1,0 +1,19 @@
+<!--pages/page4/page4.wxml-->
+<view class="container">
+ 
+ <view class="info-box">
+   <view style="text-align: center;margin-bottom:10%;">
+     <image class="avatar-img" src="{{avatarUrl}}" />
+   </view>
+ 
+   <text>昵称： {{nickName}}</text>
+   <text>性别： {{gender}}</text>
+
+ </view>
+
+ <view style="margin-top:5%"> 
+   <button class="but1" open-type="getUserInfo" bindtap="showUserInfoTap">获取个人信息</button>
+ </view>
+
+</view>
+
